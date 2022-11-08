@@ -1,0 +1,394 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.container_end {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+  min-width: 150vh;
+  min-height: 100vh;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* preço */
+.price {
+  width: 700px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px 0px;
+}
+
+.price mark {
+  background: rgb(75, 168, 72);
+  border-radius: 80px;
+}
+
+.price h2 mark {
+  font-weight: 700;
+}
+
+.price h3 span {
+  font-size: 45px;
+  color: rgb(75, 168, 72);
+  font-weight: 700;
+}
+
+.price button {
+  padding: 24px 40px;
+  background: rgb(75, 168, 72);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 10px solid green;
+}
+
+.price button:hover {
+  padding: 24px 40px;
+  background: rgb(143, 214, 141);
+  border-radius: 10px;
+  border: none;
+  color: green;
+  font-size: 20px;
+  border-bottom: 10px solid rgb(95, 228, 95);
+  transition: 0.5s;
+}
+
+.price h6 span {
+  color: red;
+}
+
+.price h6 {
+  font-weight: 600;
+}
+
+.icons_price {
+  width: 450px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 120px;
+}
+
+.icons {
+  width: 140px;
+  height: 90px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.icon {
+  width: 90px;
+  height: 30px;
+}
+
+/* garantia */
+
+.warranty {
+  width: 1360px;
+  height: 360px;
+
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 0px 20px;
+  justify-content: center;
+  background: linear-gradient(rgb(7, 5, 73), rgb(5, 7, 22));
+}
+
+.icon_warranty {
+  border: 5px solid white;
+  border-radius: 200px;
+  height: 250px;
+
+  color: rgb(7, 5, 73);
+  width: 250px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(131, 23, 131), rgb(88, 5, 88));
+}
+
+.icon_warranty h3 {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.icon_warranty span {
+  font-size: 65px;
+}
+
+.text_warranty {
+  width: 800px;
+
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.text_warranty p {
+  text-align: start;
+}
+
+/* dúvidas */
+
+.doubts {
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.doubts_title {
+  margin-bottom: 35px;
+  width: 600px;
+  font-weight: 800;
+}
+.doubts_title span {
+  background: #ac58aa;
+  border-radius: 10px;
+}
+
+.doubts_answer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 1000px;
+  height: 50px;
+
+  gap: 0px 5px;
+}
+
+.answer_icon .icon {
+  color: purple;
+  width: 40px;
+}
+
+.answer {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+/* passos */
+.steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1100px;
+  height: 660px;
+
+  gap: 10px 0px;
+}
+
+.steps_title {
+  padding: 10px 0px;
+}
+
+.steps_title mark {
+  background: #ac58aa;
+  border-radius: 10px;
+}
+
+.steps_organization {
+  width: 500px;
+  height: 90px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 3px solid purple;
+  flex-direction: row;
+}
+
+.number_steps {
+  padding: 5px 22px;
+  font-weight: 700;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  font-size: 45px;
+}
+
+.steps_one {
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.button button {
+  padding: 24px 40px;
+  background: rgb(75, 168, 72);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 10px solid green;
+}
+
+.button button:hover {
+  padding: 24px 40px;
+  background: rgb(143, 214, 141);
+  border-radius: 10px;
+  border: none;
+  color: green;
+  font-size: 20px;
+  border-bottom: 10px solid rgb(95, 228, 95);
+  transition: 0.5s;
+}
+
+/* contato */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1360px;
+  gap: 0px 20px;
+  height: 230px;
+  color: white;
+  background: linear-gradient(rgb(7, 5, 73), rgb(5, 7, 22));
+}
+
+.contact_icon {
+  width: 200px;
+  height: 190px;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.icon_whatsap {
+  color: rgb(11, 201, 11);
+  height: 100px;
+  width: 100px;
+}
+
+.contact_text {
+  gap: 10px 0px;
+  width: 700px;
+  height: 190px;
+
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contact_text h6 {
+  text-align: start;
+}
+
+/* logo */
+
+.logo {
+  width: 600px;
+  height: 150px;
+}
+
+.logo img {
+  width: 400px;
+}
+
+/* rodapé */
+
+.footer {
+  background: black;
+  color: white;
+  width: 1360px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* whatsap */
+
+.whats {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  width: 80px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .text_warranty {
+    width: 500px;
+  }
+
+  .doubts_answer {
+    width: 600px;
+  }
+
+  .answer {
+    font-size: 15px;
+  }
+  .contact_text {
+    width: 500px;
+  }
+}
+
+@media (max-width: 750px) {
+  .text_price {
+    width: 400px;
+  }
+
+  .warranty {
+    flex-direction: column;
+    height: 700px;
+  }
+
+  .text_warranty {
+    width: 400px;
+    padding-top: 100px;
+  }
+
+  .doubts_answer {
+    width: 400px;
+    gap: 20px 5px;
+  }
+
+  .steps_title {
+    width: 400px;
+  }
+  .steps_organization {
+    width: 400px;
+  }
+  .contact {
+    flex-direction: column;
+    height: 400px;
+  }
+  .contact_text {
+    width: 400px;
+    height: 190px;
+  }
+  .footer {
+    font-size: 12px;
+  }
+}

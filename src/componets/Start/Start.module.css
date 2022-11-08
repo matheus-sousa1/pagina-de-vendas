@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  /*max-width: 1280px;*/
+  margin: 0 auto;
+  min-width: 150vh;
+  min-height: 100vh;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*  logo */
+.font_logo {
+  display: flex;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200px;
+}
+
+.font_logo img {
+  width: 300px;
+}
+
+/* intro */
+.img_start {
+  width: 900px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.img_start img {
+  max-width: 550px;
+}
+
+.img_start span {
+  background: #ac58aa;
+  border-radius: 10px;
+}
+
+.objective_course {
+  width: 1100px;
+}
+
+.objective_text {
+  font-size: 20px;
+  padding: 30px 0px;
+}
+
+.objective_text li {
+  text-align: start;
+}
+
+/* apresentação */
+
+.contents {
+  min-width: 1360px;
+  background: #ac58aa;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 0px;
+  padding-bottom: 20px;
+}
+
+.logo_content h2 {
+  padding-bottom: 22px;
+  font-weight: 700;
+}
+
+.logo_content mark {
+  background: white;
+  border-radius: 20px;
+}
+
+/*contents img*/
+.img_one {
+  width: 300px;
+  background: white;
+  border-radius: 20px;
+}
+
+.course_info {
+  padding-bottom: 35px;
+}
+
+.course_info h2 {
+  font-weight: 600;
+}
+
+.contents_learn {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 250px);
+  gap: 0px 10px;
+}
+
+.learn {
+  height: 310px;
+  background: white;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 15px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learn img {
+  width: 70px;
+}
+
+/* modulos */
+
+.modules {
+  min-width: 1100px;
+  height: 2700px;
+}
+
+.modules h2 {
+  padding: 20px 0px;
+}
+
+.modules h2 span {
+  background: #ac58aa;
+  border-radius: 10px;
+}
+
+.module {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 500px);
+  padding: 40px 10px;
+}
+
+.img_module {
+  width: 400px;
+  height: 230px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_module img {
+  width: 380px;
+  height: 210px;
+}
+
+.icon_module1 {
+  width: 300px;
+  height: 240px;
+  color: orange;
+}
+
+.icon_module2 {
+  width: 300px;
+  height: 240px;
+  color: rgb(12, 96, 223);
+}
+
+.icon_module3 {
+  width: 300px;
+  height: 240px;
+  color: yellow;
+}
+
+.icon_module4 {
+  width: 300px;
+  height: 240px;
+  color: rgb(0, 153, 255);
+}
+
+.icon_module5 {
+  width: 300px;
+  height: 240px;
+  color: green;
+}
+
+.icon_module6 {
+  width: 300px;
+  height: 240px;
+  color: red;
+}
+
+.text_module {
+  text-align: start;
+}
+
+.text_module p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text_module p span {
+  color: #ac58aa;
+}
+
+.text_module h5 {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+/* responsivo */
+
+@media (max-width: 1112px) {
+  .img_start {
+    width: 600px;
+  }
+
+  .objective_course {
+    width: 600px;
+  }
+
+  .contents {
+    height: 1280px;
+  }
+
+  .contents_learn {
+    grid-template-columns: repeat(2, 250px);
+    gap: 20px 20px;
+  }
+
+  .modules {
+    min-width: 1100px;
+    height: 4500px;
+  }
+
+  .module {
+    grid-template-columns: repeat(1, 500px);
+  }
+}
+
+@media (max-width: 680px) {
+  .img_start {
+    width: 400px;
+  }
+  .img_start img {
+    max-width: 500px;
+  }
+
+  .objective_course {
+    width: 500px;
+  }
+  .module {
+    grid-template-columns: repeat(1, 400px);
+  }
+}
+
+@media (max-width: 500px) {
+  .img_start {
+    width: 300px;
+  }
+  .img_start img {
+    max-width: 300px;
+  }
+  .objective_course {
+    width: 300px;
+  }
+
+  .contents_learn {
+    grid-template-columns: repeat(1, 250px);
+  }
+
+  .contents {
+    height: 1900px;
+  }
+}
