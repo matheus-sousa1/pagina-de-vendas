@@ -1,3 +1,24 @@
-#pagina-de-vendas
+# pagina-de-vendas 
 
-![desmonstração page1](https://user-images.githubusercontent.com/110907635/201099914-e8a57117-4219-4bba-8931-ad9c69f1510e.png)
+
+![sell](https://user-images.githubusercontent.com/110907635/201106277-7052edc3-8de0-4015-b5b7-a1f02d1b6c68.png)
+
+## Descrição
+
+É uma página de vendas geralmente usada por empreendedores digitais
+<br/>
+veja: https://devfront-end.netlify.app/
+
+## Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+<li>React js</li>
+
+## Bibliotecas
+
+<li>React icons</li>
+<li>Carousel Bootstrap</li>
+
+## links
+
